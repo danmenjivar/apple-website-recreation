@@ -1,6 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* 
+==============================================
+    CSS Reset
+    http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+==============================================
 */
 
 html, body, div, span, applet, object, iframe,
@@ -22,6 +26,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -45,5 +50,46 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.navbar-container {
+    width: 980px;
+    height: 36px;
+    background: red;
+}
+
+.hero {
+    width: 1440px;
+    height: 538px;
+    background: green;
+
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100%;
+    column-gap: 1px;
+}
+
+.product-hero {
+    width: 360px;
+    height: 200px;
+}
+
+.product-1 {
+    background: indianred;
+}
+
+.product-2 {
+    background: blue;
+}
+
+.product-3 {
+    background: indianred;
+}
+
+.product-4 {
+    background: blue;
 }
 
